@@ -20,15 +20,15 @@ public class CompareDateSample2 {
 
     public static void main(String[] args) throws ParseException {
         // Create a formatter using the pattern yyyy-MM-dd
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
         // Parse two date strings into Date objects
-        Date date1 = sdf.parse("2020-02-01");
-        Date date2 = sdf.parse("2020-01-31");
+        Date date1 = dateFormat.parse("2020-02-01");
+        Date date2 = dateFormat.parse("2020-01-31");
 
         // Print the formatted dates
-        System.out.println("date1 : " + sdf.format(date1));
-        System.out.println("date2 : " + sdf.format(date2));
+        System.out.println("date1 : " + dateFormat.format(date1));
+        System.out.println("date2 : " + dateFormat.format(date2));
 
         // Check if the two dates are equal
         if (date1.equals(date2)) {
