@@ -4,9 +4,11 @@ import java.util.Date;
 
 /**
  * DateRangeValidator.java
+ *
  * <p>
  * Provides functionality for validating whether a given date falls
  * within a specified start and end date range.
+ * </p>
  *
  * @author Xu
  * @version 1.0
