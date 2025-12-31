@@ -6,10 +6,12 @@ import java.time.LocalDateTime;
 
 /**
  * JdbcDateExample.java
+ *
  * <p>
  * Example program showing how to perform a JDBC INSERT operation into a PostgreSQL
  * database. It sets string, numeric, and timestamp parameters using a prepared
  * statement and prints the number of affected rows.
+ * </p>
  *
  * @author Xu
  * @version 1.0
