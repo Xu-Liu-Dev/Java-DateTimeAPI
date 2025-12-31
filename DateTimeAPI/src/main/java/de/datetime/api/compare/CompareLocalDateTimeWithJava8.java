@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * CompareLocalDateTimeWithJava8.java
+ *
  * <p>
  * Demonstrates best‑practice techniques for comparing {@link java.time.LocalDateTime}
  * instances using the Java 8 Date and Time API.
@@ -23,6 +24,7 @@ import java.time.format.DateTimeFormatter;
  * @since 2025-12-30
  */
 public class CompareLocalDateTimeWithJava8 {
+
     public static void main(String[] args) {
         // Define a formatter to parse date-time strings in the pattern "yyyy-MM-dd HH:mm:ss"
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("uuuu-MM-dd HH:mm:ss");

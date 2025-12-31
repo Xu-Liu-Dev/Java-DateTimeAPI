@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * CompareLocalDateWithJava8.java
+ *
  * <p>
  * Utility class for demonstrating various ways to compare {@link java.time.LocalDate}
  * using Java 8's Date and Time API.
