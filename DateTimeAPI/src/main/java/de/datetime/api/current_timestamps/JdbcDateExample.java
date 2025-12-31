@@ -1,4 +1,4 @@
-package de.datetime.api.currenttimestamps;
+package de.datetime.api.current_timestamps;
 
 import java.math.BigDecimal;
 import java.sql.*;

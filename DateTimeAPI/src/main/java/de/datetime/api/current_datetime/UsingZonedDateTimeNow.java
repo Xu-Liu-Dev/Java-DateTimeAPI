@@ -1,4 +1,4 @@
-package de.datetime.api.currentdatetime;
+package de.datetime.api.current_datetime;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
